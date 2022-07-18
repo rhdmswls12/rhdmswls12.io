@@ -1,0 +1,242 @@
+div{
+    box-sizing: border-box;
+}
+body{
+    font-family:'serif';
+}
+.first-box{
+    background:url('../img/iphone.png'); 
+    background:linear-gradient(90deg, #48c6ef 0%, #6f86d6 100%);
+    width:100%;
+    height:250px;
+    position:relative;
+    
+    
+}
+.first-box h1{
+    font-size:12px;
+}
+.first-text-button-wrapper{
+    position:relative;
+    left:30px;
+    top:30px;
+}
+.second-text-button-wrapper{
+    position:relative;
+    top:10px;
+    text-align: center;
+}
+.first-box-text{
+    color: white;
+    font-size:5px;
+    
+
+    font-weight:lighter;
+}
+.first-box img{
+    width:150px;
+    position:absolute;
+    bottom:0px;
+    right:40px;
+}
+.show-button{
+    padding-top:5px;
+    padding-bottom:5px;
+    background: #424346;
+    border:none;
+    border-radius:3px;
+    font-size:2px;
+    color:white;
+    
+}
+.show-button .first-button{
+    width:70px;
+    height:25px;
+    margin-top:30px;
+    
+}
+.show-button .second-button{
+    
+    width:100px;
+    
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+}
+.second-box{
+    
+    width:100%;
+    height:100px;
+    
+}
+.second-box-text{
+    position:relative;
+    font-size:7px;
+    
+    
+}
+.third-box{
+    background:#6f86d6;
+    width:100%;
+    height:200px;
+    text-align: center;
+}
+.third-box-text{
+    position:relative;
+    top:10px;
+    
+    color:white;
+    
+}
+.icon-box{
+    
+    padding:10px;
+    width:100%;
+    
+     
+}
+.icon-item{
+    float:left;
+    width:25%;
+    
+   
+}
+.icon-box i{ 
+    
+    background-color:white;
+    width:35px;
+    height:35px;
+    border-radius:50px;
+    padding-top:12px;
+    box-sizing: border-box;
+    color:#6f86d6;
+}
+.icon-item .icon-title{
+    margin-top:10px;
+    clear:both;
+    color:white;
+    font-size:1px;
+}
+
+.icon-item .icon-description{
+    clear:both;
+    color:white;
+    font-size:0.5px;
+    font-weight: lighter;
+}
+.fourth-box{
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align: center;
+}
+.image-container{
+    max-width:1200px;
+    margin:auto;
+    text-align: left;
+}
+.portfolio-text{
+    color:white;
+    padding:50px;
+    width:100%;
+}
+.fourth-box-item1{
+    position:relative;
+    background-image:url(../img/portfolio-1.jpg);
+    background-size:cover;
+    width:50%;
+    height:300px;
+    float: left;
+    
+}
+.fourth-box-item2{
+    position:relative;
+    background:url(../img/portfolio-2.jpg);
+    background-size:cover;
+    width:50%;
+    height:300px;
+    float: left;
+    
+}
+.fourth-box-item3{
+    position:relative;
+    background:url(../img/portfolio-3.jpg);
+    background-size:cover;
+    width:50%;
+    height:300px;
+    float: left;
+    
+}
+.fourth-box-item4{
+    position:relative;
+    background:url(../img/portfolio-4.jpg);
+    background-size:cover;
+    width:50%;
+    height:300px;
+    float: left;
+    
+}
+.white-box{
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:2;
+    border:0px solid white;
+}
+.white-box:hover{
+    border:30px solid white;
+    transition:all 1s;
+}
+.fifth-box{
+    clear: both;
+}
+@media screen and (max-width:568px) {
+    .first-text-button-wrapper{
+        position:relative;
+        left:0px;
+        text-align:center;
+        width:100%;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+   .fitst-box-text{
+       
+       width:100%;
+   }
+    .first-box img{
+        position:absolute;
+        left:0px;
+        right:0px;
+        
+        width:100px;
+        display:block; 
+        margin-left:auto; 
+        margin-right:auto;
+    }
+    .third-box{
+        height:300px;
+    }
+    .icon-item{
+        width:50%;
+        padding-bottom: 20px;
+    }
+    .fourth-box-item1{
+        float:none;
+        width:100%;
+    }
+    .fourth-box-item2{
+        float:none;
+        width:100%;
+    }
+    .fourth-box-item3{
+        float:none;
+        width:100%;
+    }
+    .fourth-box-item4{
+        float:none;
+        width:100%;
+    }
+}    
